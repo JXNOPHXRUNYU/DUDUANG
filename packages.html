@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แพ็คเกจทั้งหมด — Bunné Fortune</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <div class="page-hero container">
+      <h1>🔮 แพ็คเกจทั้งหมด</h1>
+      <p>เลือกแพ็คเกจที่เหมาะกับคำถามของลูกดวงได้เลยค่ะ</p>
+    </div>
+
+    <section>
+      <div class="container">
+        <!-- ★ ชื่อแพ็คเกจ / ราคา / รายละเอียด เป็นตัวอย่าง แก้ได้เลย ★ -->
+        <div class="grid g3" style="align-items:stretch">
+          <article class="promo-card reveal">
+            <div class="icon">🌙</div>
+            <h3>Mini Moon</h3>
+            <div class="en" style="color:var(--lilac-400)">ดูแบบสั้น กระชับ</div>
+            <div class="price">฿59 <small>/ 1 คำถาม</small></div>
+            <ul>
+              <li>ไพ่ทาโรต์ หรือ ออราเคิล</li>
+              <li>ตอบเป็นข้อความ</li>
+              <li>เหมาะกับคำถามเดียวที่อยากรู้ชัดๆ</li>
+            </ul>
+            <a class="btn js-line" href="#">💬 จองแพ็คนี้</a>
+          </article>
+
+          <article class="promo-card best reveal d1">
+            <span class="tag">แนะนำ</span>
+            <div class="icon">⭐</div>
+            <h3>Twinkle Star</h3>
+            <div class="en" style="color:var(--lilac-400)">คุ้มที่สุด</div>
+            <div class="price">฿149 <small>/ 3 คำถาม</small></div>
+            <ul>
+              <li>ไพ่ทาโรต์ + ออราเคิล</li>
+              <li>ภาพรวม แนวโน้ม และคำแนะนำ</li>
+              <li>ถามเพิ่มเติมได้ 1 ครั้ง</li>
+            </ul>
+            <a class="btn js-line" href="#">💬 จองแพ็คนี้</a>
+          </article>
+
+          <article class="promo-card reveal d2">
+            <div class="icon">🌌</div>
+            <h3>Galaxy Deep</h3>
+            <div class="en" style="color:var(--lilac-400)">ละเอียดแบบเต็มอิ่ม</div>
+            <div class="price">฿249 <small>/ 5 คำถาม</small></div>
+            <ul>
+              <li>ไพ่ 3 ศาสตร์</li>
+              <li>อธิบายละเอียด พร้อมทางเลือก</li>
+              <li>ปรึกษาต่อหลังดูได้</li>
+            </ul>
+            <a class="btn js-line" href="#">💬 จองแพ็คนี้</a>
+          </article>
+        </div>
+
+        <!-- ไพ่พลิก: ชี้ (คอม) หรือแตะ (มือถือ) -->
+        <div class="sec-title reveal" style="margin-top:70px">
+          <h2>🃏 ลองพลิกไพ่ดูสิ</h2>
+          <div class="en-sub">Tap a card</div>
+          <span class="squiggle"></span>
+        </div>
+        <div class="grid g3">
+          <div class="flip reveal">
+            <div class="flip-inner">
+              <div class="flip-face"><span><span class="big">🌙</span>Mini Moon</span></div>
+              <div class="flip-back"><div><h3>Mini Moon</h3><p>1 คำถาม ตรงจุด</p><div class="price">฿59</div></div></div>
+            </div>
+          </div>
+          <div class="flip reveal d1">
+            <div class="flip-inner">
+              <div class="flip-face"><span><span class="big">⭐</span>Twinkle Star</span></div>
+              <div class="flip-back"><div><h3>Twinkle Star</h3><p>3 คำถาม คุ้มที่สุด</p><div class="price">฿149</div></div></div>
+            </div>
+          </div>
+          <div class="flip reveal d2">
+            <div class="flip-inner">
+              <div class="flip-face"><span><span class="big">🌌</span>Galaxy Deep</span></div>
+              <div class="flip-back"><div><h3>Galaxy Deep</h3><p>5 คำถาม ละเอียดเต็มที่</p><div class="price">฿249</div></div></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="note">* 1 คำถาม = 1 เรื่อง ไม่ซ้อนคำถามนะคะ (ดู Rule ที่หน้าหลัก)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="script.js"></script>
+</body>
+</html>
